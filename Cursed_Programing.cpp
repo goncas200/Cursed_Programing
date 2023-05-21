@@ -9,6 +9,8 @@ using namespace std;
 #define automatic auto
 #define console_out cout
 #define line endl
+#define computer system
+const char* wait = "pause";
 typedef int integer;
 typedef char character;
 typedef float floatingpoint;
@@ -26,5 +28,6 @@ integer MAIN_function() {
 		console_out << k[h] << line stop
 	}
 	del_array k stop
-		return 0 stop
+	computer(wait) stop
+	return 0 stop
 }
