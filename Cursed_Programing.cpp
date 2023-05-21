@@ -1,13 +1,14 @@
 #include <iostream>
+#define stop ;
 using
 namespace
-std;
+	std
+	stop
 #define Pointer *
 #define heap new
 #define MAIN_function main
 #define del delete
 #define del_array delete[]
-#define stop ;
 #define automatic auto
 #define console_out cout
 #define line endl
@@ -15,13 +16,13 @@ std;
 #define constant const
 typedef
 int
-integer 
+integer
 stop
 typedef
 char
 character
 stop
-typedef 
+typedef
 float
 floatingpoint
 stop
