@@ -2,8 +2,8 @@
 #define stop ;
 using
 namespace
-	std
-	stop
+std
+stop
 #define Pointer *
 #define heap new
 #define MAIN_function main
