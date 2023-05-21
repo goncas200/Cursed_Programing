@@ -1,5 +1,7 @@
 #include <iostream>
-using namespace std;
+using
+namespace
+std;
 #define Pointer *
 #define heap new
 #define MAIN_function main
@@ -10,24 +12,118 @@ using namespace std;
 #define console_out cout
 #define line endl
 #define computer system
-const char* wait = "pause";
-typedef int integer;
-typedef char character;
-typedef float floatingpoint;
-typedef double idk;
-integer MAIN_function() {
-	automatic Pointer i = heap integer stop
-		Pointer i = 1 stop
-		console_out << Pointer i << line << i << line stop
-		del i stop
-		automatic Pointer k = heap integer[10] stop
-		for (integer h = 0; h < 10; ++h) {
-			k[h] = h + 1;
-		}
-	for (integer h = 0; h < 10; ++h) {
-		console_out << k[h] << line stop
-	}
-	del_array k stop
-	computer(wait) stop
-	return 0 stop
+#define constant const
+typedef
+int
+integer 
+stop
+typedef
+char
+character
+stop
+typedef 
+float
+floatingpoint
+stop
+typedef
+double
+idk
+stop
+constant
+character
+Pointer
+wait
+= 
+"pause"
+stop
+integer
+MAIN_function() 
+{
+automatic 
+Pointer 
+i
+= 
+heap 
+integer 
+stop
+Pointer
+i
+=
+1
+stop
+console_out
+<<
+Pointer
+i
+<<
+line
+<<
+i
+<<
+line
+stop
+del
+i
+stop
+automatic
+Pointer
+k
+=
+heap
+integer
+[10]
+stop
+for
+(
+integer
+h
+=
+0
+stop
+h
+<
+10
+stop 
+++h
+)
+{
+k
+[h]
+=
+h
++
+1
+stop
+}
+for
+(
+integer
+h
+=
+0
+stop
+h
+<
+10
+stop 
+++h
+)
+{
+console_out
+<<
+k
+[h]
+<<
+line
+stop
+}
+del_array
+k
+stop
+computer
+(wait)
+stop
+return
+0
+stop
 }
