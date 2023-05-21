@@ -14,6 +14,12 @@ stop
 #define line endl
 #define computer system
 #define constant const
+#define bracelet_1 {
+#define bracelet_2 }
+#define parenresis_1 (
+#define parentesis_2 )
+#define idk_1 [
+#define idk_2 ]
 typedef
 int
 integer
@@ -38,8 +44,10 @@ wait
 "pause"
 stop
 integer
-MAIN_function() 
-{
+MAIN_function
+parenresis_1
+parentesis_2
+bracelet_1
 automatic 
 Pointer 
 i
@@ -72,10 +80,12 @@ k
 =
 heap
 integer
-[10]
+idk_1
+10
+idk_2
 stop
 for
-(
+parenresis_1
 integer
 h
 =
@@ -86,18 +96,20 @@ h
 10
 stop 
 ++h
-)
-{
+parentesis_2
+bracelet_1
 k
-[h]
+idk_1
+h
+idk_2
 =
 h
 +
 1
 stop
-}
+bracelet_2
 for
-(
+parenresis_1
 integer
 h
 =
@@ -108,23 +120,27 @@ h
 10
 stop 
 ++h
-)
-{
+parentesis_2
+bracelet_1
 console_out
 <<
 k
-[h]
+idk_1
+h
+idk_2
 <<
 line
 stop
-}
+bracelet_2
 del_array
 k
 stop
 computer
-(wait)
+parenresis_1
+wait
+parentesis_2
 stop
 return
 0
 stop
-}
+bracelet_2
