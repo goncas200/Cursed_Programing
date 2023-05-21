@@ -9,12 +9,10 @@ using namespace std;
 #define automatic auto
 #define console_out cout
 #define line endl
-
 typedef int integer;
 typedef char character;
 typedef float floatingpoint;
 typedef double idk;
-
 integer MAIN_function() {
 	automatic Pointer i = heap integer stop
 		Pointer i = 1 stop
@@ -30,4 +28,3 @@ integer MAIN_function() {
 	del_array k stop
 		return 0 stop
 }
-
